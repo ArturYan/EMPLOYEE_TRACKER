@@ -1,7 +1,7 @@
-var inquirer = require("inquirer")
+const inquirer = require("inquirer")
 //   * Add departments, roles, employees
-var mysql = require("mysql")
-var connection = mysql.createConnection({
+const mysql = require("mysql")
+const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
